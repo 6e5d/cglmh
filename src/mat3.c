@@ -1,8 +1,6 @@
-#include <stddef.h>
-#include <string.h>
 #include <cglm/cglm.h>
 
-#include "../include/mat3.h"
+#include "../include/cglmh.h"
 
 void cglmh_mat3_add(mat3 a, mat3 b, mat3 c) {
 	size_t i, j;

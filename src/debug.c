@@ -1,8 +1,7 @@
 // debug printing functions
-#include <stdio.h>
 #include <cglm/cglm.h>
 
-#include "../include/debug.h"
+#include "../include/cglmh.h"
 
 void cglmh_debug_vec3(vec3 v) {
 	fprintf(stderr, "%f %f %f\n",
